@@ -1,0 +1,86 @@
+/* about.css - styles for the About page (Member 2) */
+
+/* intro / background */
+.about-page .about-intro {
+    max-width: 800px;
+    margin: 40px auto 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about-page .about-intro h1 {
+    margin-bottom: 15px;
+}
+
+.about-page .about-intro p {
+    margin-bottom: 15px;
+}
+
+/* used by the Read More / Read Less button */
+.about-page .about-hidden {
+    display: none;
+}
+
+#read-btn {
+    background-color: #8b5a3c;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#read-btn:hover {
+    background-color: #4b2e1e;
+}
+
+/* mission and vision */
+.about-page .about-mv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.about-page .mv-box {
+    background-color: #f3dfc8;
+    color: #3b2a20;
+    width: 320px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.about-page .mv-box h2 {
+    margin-bottom: 8px;
+}
+
+/* team cards */
+.about-page .about-team {
+    text-align: center;
+    padding: 30px 20px 60px;
+}
+
+.about-page .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.about-page .team-card {
+    background-color: white;
+    color: #3b2a20;
+    width: 220px;
+    padding: 25px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about-page .team-card h3 {
+    margin-bottom: 5px;
+}
