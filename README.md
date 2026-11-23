@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Brew & Bloom Café — Laravel Multi-Page Web App
 
 ## Group Information
@@ -28,3 +29,7 @@
    ```bash
    git clone <repo-url>
    cd <project-folder>
+=======
+# Lara-Proj-Section-Pagura-Lim-Ramos.
+Brew &amp; Bloom Café – Laravel Group Project
+>>>>>>> origin/main
